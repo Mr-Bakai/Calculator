@@ -10,12 +10,33 @@
 		26AFE3E428ED932000201D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE3E328ED932000201D75 /* AppDelegate.swift */; };
 		26AFE3E628ED932000201D75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE3E528ED932000201D75 /* SceneDelegate.swift */; };
 		26AFE3E828ED932000201D75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE3E728ED932000201D75 /* ViewController.swift */; };
-		26AFE3EB28ED932000201D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AFE3E928ED932000201D75 /* Main.storyboard */; };
 		26AFE3ED28ED932100201D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AFE3EC28ED932100201D75 /* Assets.xcassets */; };
 		26AFE3F028ED932100201D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AFE3EE28ED932100201D75 /* LaunchScreen.storyboard */; };
 		26AFE3FB28ED932200201D75 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE3FA28ED932200201D75 /* CalculatorTests.swift */; };
 		26AFE40528ED932200201D75 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE40428ED932200201D75 /* CalculatorUITests.swift */; };
 		26AFE40728ED932200201D75 /* CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE40628ED932200201D75 /* CalculatorUITestsLaunchTests.swift */; };
+		26AFE43128ED946800201D75 /* segoe-ui-bold-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26AFE41D28ED946800201D75 /* segoe-ui-bold-italic.ttf */; };
+		26AFE43228ED946800201D75 /* segoe-ui-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26AFE41E28ED946800201D75 /* segoe-ui-italic.ttf */; };
+		26AFE43328ED946800201D75 /* segoe-ui-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26AFE41F28ED946800201D75 /* segoe-ui-bold.ttf */; };
+		26AFE43428ED946800201D75 /* segoe-ui-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26AFE42028ED946800201D75 /* segoe-ui-medium.ttf */; };
+		26AFE43528ED946800201D75 /* segoe-ui.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26AFE42128ED946800201D75 /* segoe-ui.ttf */; };
+		26AFE43628ED946800201D75 /* UIFont + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE42228ED946800201D75 /* UIFont + Ext.swift */; };
+		26AFE43728ED946800201D75 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AFE42428ED946800201D75 /* Icon.xcassets */; };
+		26AFE43828ED946800201D75 /* Icon + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE42528ED946800201D75 /* Icon + Ext.swift */; };
+		26AFE44228ED949E00201D75 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE43E28ED949E00201D75 /* BaseController.swift */; };
+		26AFE44328ED949E00201D75 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE43F28ED949E00201D75 /* BasePresenter.swift */; };
+		26AFE44428ED949E00201D75 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE44028ED949E00201D75 /* BaseNavigationController.swift */; };
+		26AFE44528ED949E00201D75 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE44128ED949E00201D75 /* BaseView.swift */; };
+		26AFE45128ED9AFA00201D75 /* UINavigationController + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE44A28ED9AFA00201D75 /* UINavigationController + Ext.swift */; };
+		26AFE45228ED9AFA00201D75 /* UIApplication + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE44B28ED9AFA00201D75 /* UIApplication + Ext.swift */; };
+		26AFE45328ED9AFA00201D75 /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE44C28ED9AFA00201D75 /* UITextField+Ext.swift */; };
+		26AFE45428ED9AFA00201D75 /* UIView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE44D28ED9AFA00201D75 /* UIView + Ext.swift */; };
+		26AFE45528ED9AFA00201D75 /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE44E28ED9AFA00201D75 /* String + Ext.swift */; };
+		26AFE45628ED9AFA00201D75 /* Array + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE44F28ED9AFA00201D75 /* Array + Ext.swift */; };
+		26AFE45728ED9AFA00201D75 /* NSMutableAttributedString + Ext .swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE45028ED9AFA00201D75 /* NSMutableAttributedString + Ext .swift */; };
+		53E342AD2EEF494096D8F9F4 /* Pods_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82FD0C01A38843604776DB8 /* Pods_Calculator.framework */; };
+		9489C7AADF5981936CDA4D9F /* Pods_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9279199E08AB8D195BE452 /* Pods_CalculatorTests.framework */; };
+		B27F570A05A0EB8CC7A89C7A /* Pods_Calculator_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AFC187970D297741812E72 /* Pods_Calculator_CalculatorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0523E8016C0C9E5422CA1BCC /* Pods-Calculator-CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator-CalculatorUITests.release.xcconfig"; path = "Target Support Files/Pods-Calculator-CalculatorUITests/Pods-Calculator-CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2686C18A343903333A458D3B /* Pods-Calculator-CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator-CalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Calculator-CalculatorUITests/Pods-Calculator-CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		26AFE3E028ED932000201D75 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AFE3E328ED932000201D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26AFE3E528ED932000201D75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		26AFE3E728ED932000201D75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		26AFE3EA28ED932000201D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26AFE3EC28ED932100201D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26AFE3EF28ED932100201D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26AFE3F128ED932100201D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +71,32 @@
 		26AFE40028ED932200201D75 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AFE40428ED932200201D75 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		26AFE40628ED932200201D75 /* CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26AFE41D28ED946800201D75 /* segoe-ui-bold-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segoe-ui-bold-italic.ttf"; sourceTree = "<group>"; };
+		26AFE41E28ED946800201D75 /* segoe-ui-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segoe-ui-italic.ttf"; sourceTree = "<group>"; };
+		26AFE41F28ED946800201D75 /* segoe-ui-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segoe-ui-bold.ttf"; sourceTree = "<group>"; };
+		26AFE42028ED946800201D75 /* segoe-ui-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segoe-ui-medium.ttf"; sourceTree = "<group>"; };
+		26AFE42128ED946800201D75 /* segoe-ui.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "segoe-ui.ttf"; sourceTree = "<group>"; };
+		26AFE42228ED946800201D75 /* UIFont + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont + Ext.swift"; sourceTree = "<group>"; };
+		26AFE42428ED946800201D75 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
+		26AFE42528ED946800201D75 /* Icon + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Icon + Ext.swift"; sourceTree = "<group>"; };
+		26AFE43E28ED949E00201D75 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		26AFE43F28ED949E00201D75 /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		26AFE44028ED949E00201D75 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		26AFE44128ED949E00201D75 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		26AFE44A28ED9AFA00201D75 /* UINavigationController + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController + Ext.swift"; sourceTree = "<group>"; };
+		26AFE44B28ED9AFA00201D75 /* UIApplication + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication + Ext.swift"; sourceTree = "<group>"; };
+		26AFE44C28ED9AFA00201D75 /* UITextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
+		26AFE44D28ED9AFA00201D75 /* UIView + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Ext.swift"; sourceTree = "<group>"; };
+		26AFE44E28ED9AFA00201D75 /* String + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
+		26AFE44F28ED9AFA00201D75 /* Array + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array + Ext.swift"; sourceTree = "<group>"; };
+		26AFE45028ED9AFA00201D75 /* NSMutableAttributedString + Ext .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString + Ext .swift"; sourceTree = "<group>"; };
+		467A7B7BA7826670D1DDD211 /* Pods-Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Calculator/Pods-Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		4798E9A66EBB2B4366FF65CD /* Pods-CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B15EBA01911B6C205EC59E7 /* Pods-Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.release.xcconfig"; path = "Target Support Files/Pods-Calculator/Pods-Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		7F27B991A7C311692958E89F /* Pods-CalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7AFC187970D297741812E72 /* Pods_Calculator_CalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calculator_CalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82FD0C01A38843604776DB8 /* Pods_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9279199E08AB8D195BE452 /* Pods_CalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E342AD2EEF494096D8F9F4 /* Pods_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9489C7AADF5981936CDA4D9F /* Pods_CalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27F570A05A0EB8CC7A89C7A /* Pods_Calculator_CalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +134,8 @@
 				26AFE3F928ED932200201D75 /* CalculatorTests */,
 				26AFE40328ED932200201D75 /* CalculatorUITests */,
 				26AFE3E128ED932000201D75 /* Products */,
+				FA50DFB933E399DA70F9BB76 /* Pods */,
+				95709428C05653BDE69E06E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +152,12 @@
 		26AFE3E228ED932000201D75 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				26AFE43C28ED948800201D75 /* ViewLayout */,
+				26AFE41428ED946800201D75 /* Resources */,
+				26AFE41328ED934100201D75 /* SupportFiles */,
+				26AFE44828ED9AFA00201D75 /* Extensions */,
 				26AFE3E328ED932000201D75 /* AppDelegate.swift */,
 				26AFE3E528ED932000201D75 /* SceneDelegate.swift */,
-				26AFE3E728ED932000201D75 /* ViewController.swift */,
-				26AFE3E928ED932000201D75 /* Main.storyboard */,
-				26AFE3EC28ED932100201D75 /* Assets.xcassets */,
-				26AFE3EE28ED932100201D75 /* LaunchScreen.storyboard */,
-				26AFE3F128ED932100201D75 /* Info.plist */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -127,6 +179,137 @@
 			path = CalculatorUITests;
 			sourceTree = "<group>";
 		};
+		26AFE41328ED934100201D75 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE3EC28ED932100201D75 /* Assets.xcassets */,
+				26AFE3EE28ED932100201D75 /* LaunchScreen.storyboard */,
+				26AFE3F128ED932100201D75 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		26AFE41428ED946800201D75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE41B28ED946800201D75 /* Font */,
+				26AFE42328ED946800201D75 /* Icon */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		26AFE41B28ED946800201D75 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE41C28ED946800201D75 /* Segoe */,
+				26AFE42228ED946800201D75 /* UIFont + Ext.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		26AFE41C28ED946800201D75 /* Segoe */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE41D28ED946800201D75 /* segoe-ui-bold-italic.ttf */,
+				26AFE41E28ED946800201D75 /* segoe-ui-italic.ttf */,
+				26AFE41F28ED946800201D75 /* segoe-ui-bold.ttf */,
+				26AFE42028ED946800201D75 /* segoe-ui-medium.ttf */,
+				26AFE42128ED946800201D75 /* segoe-ui.ttf */,
+			);
+			path = Segoe;
+			sourceTree = "<group>";
+		};
+		26AFE42328ED946800201D75 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE42428ED946800201D75 /* Icon.xcassets */,
+				26AFE42528ED946800201D75 /* Icon + Ext.swift */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		26AFE43C28ED948800201D75 /* ViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE44728ED94AA00201D75 /* View */,
+				26AFE44628ED94A200201D75 /* Scenes */,
+				26AFE43D28ED949E00201D75 /* Base */,
+			);
+			path = ViewLayout;
+			sourceTree = "<group>";
+		};
+		26AFE43D28ED949E00201D75 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE43E28ED949E00201D75 /* BaseController.swift */,
+				26AFE43F28ED949E00201D75 /* BasePresenter.swift */,
+				26AFE44028ED949E00201D75 /* BaseNavigationController.swift */,
+				26AFE44128ED949E00201D75 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		26AFE44628ED94A200201D75 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE3E728ED932000201D75 /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		26AFE44728ED94AA00201D75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26AFE44828ED9AFA00201D75 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE44928ED9AFA00201D75 /* UI */,
+				26AFE44E28ED9AFA00201D75 /* String + Ext.swift */,
+				26AFE44F28ED9AFA00201D75 /* Array + Ext.swift */,
+				26AFE45028ED9AFA00201D75 /* NSMutableAttributedString + Ext .swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		26AFE44928ED9AFA00201D75 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				26AFE44A28ED9AFA00201D75 /* UINavigationController + Ext.swift */,
+				26AFE44B28ED9AFA00201D75 /* UIApplication + Ext.swift */,
+				26AFE44C28ED9AFA00201D75 /* UITextField+Ext.swift */,
+				26AFE44D28ED9AFA00201D75 /* UIView + Ext.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		95709428C05653BDE69E06E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F82FD0C01A38843604776DB8 /* Pods_Calculator.framework */,
+				F7AFC187970D297741812E72 /* Pods_Calculator_CalculatorUITests.framework */,
+				FC9279199E08AB8D195BE452 /* Pods_CalculatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA50DFB933E399DA70F9BB76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				467A7B7BA7826670D1DDD211 /* Pods-Calculator.debug.xcconfig */,
+				6B15EBA01911B6C205EC59E7 /* Pods-Calculator.release.xcconfig */,
+				2686C18A343903333A458D3B /* Pods-Calculator-CalculatorUITests.debug.xcconfig */,
+				0523E8016C0C9E5422CA1BCC /* Pods-Calculator-CalculatorUITests.release.xcconfig */,
+				4798E9A66EBB2B4366FF65CD /* Pods-CalculatorTests.debug.xcconfig */,
+				7F27B991A7C311692958E89F /* Pods-CalculatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AFE40A28ED932200201D75 /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
+				CF7E97BAC2F3CF5586A800B5 /* [CP] Check Pods Manifest.lock */,
 				26AFE3DC28ED932000201D75 /* Sources */,
 				26AFE3DD28ED932000201D75 /* Frameworks */,
 				26AFE3DE28ED932000201D75 /* Resources */,
+				CBC449A48BDEE7090B05BF08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +336,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AFE40D28ED932200201D75 /* Build configuration list for PBXNativeTarget "CalculatorTests" */;
 			buildPhases = (
+				811F07B6095E10CB099AEB30 /* [CP] Check Pods Manifest.lock */,
 				26AFE3F228ED932200201D75 /* Sources */,
 				26AFE3F328ED932200201D75 /* Frameworks */,
 				26AFE3F428ED932200201D75 /* Resources */,
@@ -169,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AFE41028ED932200201D75 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */;
 			buildPhases = (
+				CA3A52B61B96D518D43D9373 /* [CP] Check Pods Manifest.lock */,
 				26AFE3FC28ED932200201D75 /* Sources */,
 				26AFE3FD28ED932200201D75 /* Frameworks */,
 				26AFE3FE28ED932200201D75 /* Resources */,
+				6C3AD701EA485946E56316AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +401,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				ky,
 			);
 			mainGroup = 26AFE3D728ED931F00201D75;
 			productRefGroup = 26AFE3E128ED932000201D75 /* Products */;
@@ -232,8 +422,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AFE3F028ED932100201D75 /* LaunchScreen.storyboard in Resources */,
+				26AFE43228ED946800201D75 /* segoe-ui-italic.ttf in Resources */,
+				26AFE43428ED946800201D75 /* segoe-ui-medium.ttf in Resources */,
+				26AFE43728ED946800201D75 /* Icon.xcassets in Resources */,
+				26AFE43128ED946800201D75 /* segoe-ui-bold-italic.ttf in Resources */,
 				26AFE3ED28ED932100201D75 /* Assets.xcassets in Resources */,
-				26AFE3EB28ED932000201D75 /* Main.storyboard in Resources */,
+				26AFE43528ED946800201D75 /* segoe-ui.ttf in Resources */,
+				26AFE43328ED946800201D75 /* segoe-ui-bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +448,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C3AD701EA485946E56316AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calculator-CalculatorUITests/Pods-Calculator-CalculatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calculator-CalculatorUITests/Pods-Calculator-CalculatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calculator-CalculatorUITests/Pods-Calculator-CalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811F07B6095E10CB099AEB30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3A52B61B96D518D43D9373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calculator-CalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC449A48BDEE7090B05BF08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calculator/Pods-Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calculator/Pods-Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calculator/Pods-Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7E97BAC2F3CF5586A800B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26AFE3DC28ED932000201D75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				26AFE3E828ED932000201D75 /* ViewController.swift in Sources */,
+				26AFE44328ED949E00201D75 /* BasePresenter.swift in Sources */,
 				26AFE3E428ED932000201D75 /* AppDelegate.swift in Sources */,
 				26AFE3E628ED932000201D75 /* SceneDelegate.swift in Sources */,
+				26AFE45528ED9AFA00201D75 /* String + Ext.swift in Sources */,
+				26AFE45228ED9AFA00201D75 /* UIApplication + Ext.swift in Sources */,
+				26AFE43828ED946800201D75 /* Icon + Ext.swift in Sources */,
+				26AFE45728ED9AFA00201D75 /* NSMutableAttributedString + Ext .swift in Sources */,
+				26AFE45428ED9AFA00201D75 /* UIView + Ext.swift in Sources */,
+				26AFE45128ED9AFA00201D75 /* UINavigationController + Ext.swift in Sources */,
+				26AFE45628ED9AFA00201D75 /* Array + Ext.swift in Sources */,
+				26AFE45328ED9AFA00201D75 /* UITextField+Ext.swift in Sources */,
+				26AFE43628ED946800201D75 /* UIFont + Ext.swift in Sources */,
+				26AFE44228ED949E00201D75 /* BaseController.swift in Sources */,
+				26AFE44428ED949E00201D75 /* BaseNavigationController.swift in Sources */,
+				26AFE44528ED949E00201D75 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +608,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		26AFE3E928ED932000201D75 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26AFE3EA28ED932000201D75 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		26AFE3EE28ED932100201D75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,16 +735,16 @@
 		};
 		26AFE40B28ED932200201D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467A7B7BA7826670D1DDD211 /* Pods-Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = Calculator/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,16 +762,16 @@
 		};
 		26AFE40C28ED932200201D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B15EBA01911B6C205EC59E7 /* Pods-Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = Calculator/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,6 +789,7 @@
 		};
 		26AFE40E28ED932200201D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4798E9A66EBB2B4366FF65CD /* Pods-CalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +809,7 @@
 		};
 		26AFE40F28ED932200201D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F27B991A7C311692958E89F /* Pods-CalculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +829,7 @@
 		};
 		26AFE41128ED932200201D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2686C18A343903333A458D3B /* Pods-Calculator-CalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +847,7 @@
 		};
 		26AFE41228ED932200201D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0523E8016C0C9E5422CA1BCC /* Pods-Calculator-CalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
