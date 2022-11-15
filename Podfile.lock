@@ -1,0 +1,20 @@
+PODS:
+  - ProgressHUD (13.6)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - ProgressHUD
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - ProgressHUD
+    - SnapKit
+
+SPEC CHECKSUMS:
+  ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 5f3dfe90d23814f8c62107ea2624bdad9151a593
+
+COCOAPODS: 1.11.2

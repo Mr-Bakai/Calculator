@@ -30,5 +30,3 @@ extension UIApplication {
         }
     }
 }
-
-

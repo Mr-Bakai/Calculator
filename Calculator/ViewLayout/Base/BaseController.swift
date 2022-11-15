@@ -8,10 +8,8 @@
 import Foundation
 import UIKit
 
-class BaseController<PresenterDelegate>: UIViewController {
-    
-    var presenter: PresenterDelegate?
-    
+class BaseController: UIViewController {
+        
     override func viewDidLoad() {
         setupObserver()
         setupSubViews()
