@@ -17,6 +17,7 @@ enum KeyBoardType {
 
 class UIKeyboardView: BaseView {
     
+    //MARK: StackView
     private var numbersContainerStackView: UIStackView = {
         let stack = UIStackView()
         stack.axis = .vertical
@@ -72,287 +73,7 @@ class UIKeyboardView: BaseView {
         stack.spacing = 2
         return stack
     }()
-    
-    // MARK: -Symbols
-    private lazy var clearLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "C"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .lightBlack
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var plusMinusLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "+/-"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .lightBlack
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var percentLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "%"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .lightBlack
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var plusLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "+"
-        view.textColor = .greenSymbol
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var plusSignImage: UIImageBoxView = {
-        let view = UIImageBoxView(image: UIImage.plusSign)
-        view.contentMode = .scaleAspectFit
-        view.backgroundColor = .darkGray
-        return view
-    }()
-    
-    private lazy var minusLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "-"
-        view.textColor = .greenSymbol
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var multiplyLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "x"
-        view.textColor = .greenSymbol
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var divisionLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "/"
-        view.textColor = .greenSymbol
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    // MARK: -NumberViews
-    private lazy var numberOneLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "1"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var numberTwoLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "2"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var numberThreeLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.textAlignment = .center
-        view.text = "3"
-        view.textColor = .white
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private  lazy var numberFourLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.textAlignment = .center
-        view.text = "4"
-        view.textColor = .white
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var numberFiveLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "5"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var numberSixLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "6"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private  lazy var numberSevenLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "7"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var numberEightLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "8"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var numberNineLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "9"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private  lazy var numberZeroLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "0"
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var commaLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = ","
-        view.textColor = .white
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var equalLabel: UILabelView = {
-        let view = UILabelView()
-        view.setClickListener(labelClickListener)
-        view.font = UIFont.systemFont(ofSize: 30, weight: .light)
-        view.text = "="
-        view.textColor = .greenSymbol
-        view.textAlignment = .center
-        view.numberOfLines = 0
-        view.backgroundColor = .darkGray
-        view.layer.cornerRadius = 5
-        view.layer.masksToBounds = true
-        return view
-    }()
-    
-    private lazy var uiSpaceView: UIView = {
-        let view = UIView()
-        return view
-    }()
-    
+        
     private lazy var backSpace: UIImageBoxView = {
         let view = UIImageBoxView(image: UIImage.backSpace)
         view.contentMode = .scaleAspectFit
@@ -362,13 +83,10 @@ class UIKeyboardView: BaseView {
     private lazy var uiBackSpaceView: UIView = {
         let view = UIView()
         view.backgroundColor = .lightBlack
+        view.layer.cornerRadius = 5
+        view.layer.masksToBounds = true
         return view
     }()
-    
-    private lazy var labelClickListener: (UILabel) -> Void = { view in
-        view.showClick()
-        self.listener(.number(title: view.text ?? .empty))
-    }
     
     override func addSubViews() {
         addSubview(numbersContainerStackView)
@@ -378,31 +96,31 @@ class UIKeyboardView: BaseView {
             make.left.right.equalToSuperview()
         }
         
-        firstSymbolStackView.addArrangedSubview(clearLabel)
-        firstSymbolStackView.addArrangedSubview(plusMinusLabel)
-        firstSymbolStackView.addArrangedSubview(percentLabel)
-        firstSymbolStackView.addArrangedSubview(uiBackSpaceView)
+        firstSymbolStackView.addArrangedSubview(addSymbol("C", .lightBlack))
+        firstSymbolStackView.addArrangedSubview(addSymbol("+/-", .lightBlack))
+        firstSymbolStackView.addArrangedSubview(addSymbol("%", .lightBlack))
+        firstSymbolStackView.addArrangedSubview(UIView())
         
-        secondSymbolStackView.addArrangedSubview(plusSignImage)
-        secondSymbolStackView.addArrangedSubview(minusLabel)
-        secondSymbolStackView.addArrangedSubview(multiplyLabel)
-        secondSymbolStackView.addArrangedSubview(divisionLabel)
+        secondSymbolStackView.addArrangedSubview(addGreenSymbols(.plusSign))
+        secondSymbolStackView.addArrangedSubview(addGreenSymbols(.minusSign))
+        secondSymbolStackView.addArrangedSubview(addGreenSymbols(.multiplySign))
+        secondSymbolStackView.addArrangedSubview(addGreenSymbols(.divisionSign))
         
-        firstNumbersStackView.addArrangedSubview(numberSevenLabel)
-        firstNumbersStackView.addArrangedSubview(numberEightLabel)
-        firstNumbersStackView.addArrangedSubview(numberNineLabel)
+        firstNumbersStackView.addArrangedSubview(addSymbol("7"))
+        firstNumbersStackView.addArrangedSubview(addSymbol("8"))
+        firstNumbersStackView.addArrangedSubview(addSymbol("9"))
         
-        secondNumbersStackView.addArrangedSubview(numberFourLabel)
-        secondNumbersStackView.addArrangedSubview(numberFiveLabel)
-        secondNumbersStackView.addArrangedSubview(numberSixLabel)
+        secondNumbersStackView.addArrangedSubview(addSymbol("4"))
+        secondNumbersStackView.addArrangedSubview(addSymbol("5"))
+        secondNumbersStackView.addArrangedSubview(addSymbol("6"))
         
-        thirdNumbersStackView.addArrangedSubview(numberOneLabel)
-        thirdNumbersStackView.addArrangedSubview(numberTwoLabel)
-        thirdNumbersStackView.addArrangedSubview(numberThreeLabel)
+        thirdNumbersStackView.addArrangedSubview(addSymbol("1"))
+        thirdNumbersStackView.addArrangedSubview(addSymbol("2"))
+        thirdNumbersStackView.addArrangedSubview(addSymbol("3"))
         
-        fourthNumbersStackView.addArrangedSubview(numberZeroLabel)
-        fourthNumbersStackView.addArrangedSubview(commaLabel)
-        fourthNumbersStackView.addArrangedSubview(equalLabel)
+        fourthNumbersStackView.addArrangedSubview(addSymbol("0"))
+        fourthNumbersStackView.addArrangedSubview(addSymbol(","))
+        fourthNumbersStackView.addArrangedSubview(addGreenSymbols(.equalSign))
         
         uiBackSpaceView.addSubview(backSpace)
         backSpace.snp.makeConstraints { make in
@@ -415,6 +133,48 @@ class UIKeyboardView: BaseView {
         numbersContainerStackView.addArrangedSubview(secondNumbersStackView)
         numbersContainerStackView.addArrangedSubview(thirdNumbersStackView)
         numbersContainerStackView.addArrangedSubview(fourthNumbersStackView)
+    }
+    
+    private func addGreenSymbols(_ image: UIImage? = nil, _ color: UIColor? = .darkGray) -> UIView {
+        let container = UIView()
+        container.backgroundColor = .darkGray
+        container.layer.cornerRadius = 5
+        container.layer.masksToBounds = true
+        
+        let imageView: UIImageBoxView = {
+            let view = UIImageBoxView(image: image)
+            view.contentMode = .scaleAspectFit
+            view.backgroundColor = .darkGray
+            return view
+        }()
+        
+        container.addSubview(imageView)
+        imageView.snp.makeConstraints { make in
+            make.edges.equalToSuperview().inset(16)
+        }
+        return container
+    }
+    
+    private func addSymbol(_ symbol: String, _ color: UIColor? = .darkGray) -> UILabel {
+        let label: UILabelView = {
+            let view = UILabelView()
+            view.setClickListener(labelClickListener)
+            view.font = UIFont.systemFont(ofSize: 30, weight: .light)
+            view.text = symbol
+            view.textColor = .white
+            view.textAlignment = .center
+            view.numberOfLines = 0
+            view.backgroundColor = color
+            view.layer.cornerRadius = 5
+            view.layer.masksToBounds = true
+            return view
+        }()
+        return label
+    }
+    
+    private lazy var labelClickListener: (UILabel) -> Void = { view in
+        view.showClick()
+        self.listener(.number(title: view.text ?? .empty))
     }
     
     private var listener: (KeyBoardType) -> Void = {_ in}
