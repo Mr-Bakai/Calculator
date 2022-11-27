@@ -16,7 +16,7 @@ class CustomCalculatorCellView: BaseView {
         return view
     }()
     
-    private let keyboardView = UIKeyboardView()
+    private var keyboardView = UIKeyboardView()
     
     override func addSubViews() {
         addSubview(calculatedView)
@@ -31,6 +31,14 @@ class CustomCalculatorCellView: BaseView {
             make.top.equalTo(calculatedView.snp.bottom)
             make.left.right.equalToSuperview()
             make.bottom.equalToSuperview()
+        }
+    }
+    
+    override func setupUI() {
+        keyboardView.setKeyboardListener { [weak self] type in
+            guard let self = self else {
+                return
+            }
         }
     }
 }

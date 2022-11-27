@@ -10,10 +10,7 @@ import SnapKit
 
 class MainController: BaseController {
     
-    private let converterView: BaseView = {
-        let view = BaseView()
-        return view
-    }()
+    private let converterView = BaseView()
     
     private let calculatorView = CustomCalculatorCellView()
     

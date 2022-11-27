@@ -46,6 +46,8 @@
 		26C07EC22922A68C00C0E213 /* Images + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C07EC12922A68C00C0E213 /* Images + Ext.swift */; };
 		26DB471B2913D01F003F6C83 /* UIOperationsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB471A2913D01F003F6C83 /* UIOperationsCollectionView.swift */; };
 		26DB471E2913D804003F6C83 /* ConverterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB471D2913D804003F6C83 /* ConverterCollectionViewCell.swift */; };
+		26FCB12B2932317E00FD532B /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCB12A2932317E00FD532B /* GridLayout.swift */; };
+		26FCB12D2932319F00FD532B /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCB12C2932319F00FD532B /* KeyboardButton.swift */; };
 		53E342AD2EEF494096D8F9F4 /* Pods_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82FD0C01A38843604776DB8 /* Pods_Calculator.framework */; };
 		9489C7AADF5981936CDA4D9F /* Pods_CalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9279199E08AB8D195BE452 /* Pods_CalculatorTests.framework */; };
 		B27F570A05A0EB8CC7A89C7A /* Pods_Calculator_CalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AFC187970D297741812E72 /* Pods_Calculator_CalculatorUITests.framework */; };
@@ -114,6 +116,8 @@
 		26C07EC12922A68C00C0E213 /* Images + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images + Ext.swift"; sourceTree = "<group>"; };
 		26DB471A2913D01F003F6C83 /* UIOperationsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOperationsCollectionView.swift; sourceTree = "<group>"; };
 		26DB471D2913D804003F6C83 /* ConverterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterCollectionViewCell.swift; sourceTree = "<group>"; };
+		26FCB12A2932317E00FD532B /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		26FCB12C2932319F00FD532B /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
 		467A7B7BA7826670D1DDD211 /* Pods-Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Calculator/Pods-Calculator.debug.xcconfig"; sourceTree = "<group>"; };
 		4798E9A66EBB2B4366FF65CD /* Pods-CalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorTests/Pods-CalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B15EBA01911B6C205EC59E7 /* Pods-Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.release.xcconfig"; path = "Target Support Files/Pods-Calculator/Pods-Calculator.release.xcconfig"; sourceTree = "<group>"; };
@@ -350,6 +354,8 @@
 				267858FE28F1ABD600B38D61 /* UICustomSegmentView.swift */,
 				26DB471A2913D01F003F6C83 /* UIOperationsCollectionView.swift */,
 				264A95CC291F85570054DBF9 /* CustomCalculatorCellView.swift */,
+				26FCB12A2932317E00FD532B /* GridLayout.swift */,
+				26FCB12C2932319F00FD532B /* KeyboardButton.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -649,8 +655,10 @@
 				26AFE45628ED9AFA00201D75 /* Array + Ext.swift in Sources */,
 				267858FB28F198F600B38D61 /* Color+Ext.swift in Sources */,
 				26AFE45328ED9AFA00201D75 /* UITextField+Ext.swift in Sources */,
+				26FCB12D2932319F00FD532B /* KeyboardButton.swift in Sources */,
 				267858F028F179ED00B38D61 /* UICustomToolbarView.swift in Sources */,
 				264A95D3292006B10054DBF9 /* Animation + Ext.swift in Sources */,
+				26FCB12B2932317E00FD532B /* GridLayout.swift in Sources */,
 				26AFE43628ED946800201D75 /* UIFont + Ext.swift in Sources */,
 				264A95CD291F85570054DBF9 /* CustomCalculatorCellView.swift in Sources */,
 				267858FF28F1ABD600B38D61 /* UICustomSegmentView.swift in Sources */,
