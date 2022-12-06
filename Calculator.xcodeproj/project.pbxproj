@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		264A95CD291F85570054DBF9 /* CustomCalculatorCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A95CC291F85570054DBF9 /* CustomCalculatorCellView.swift */; };
+		264A95CD291F85570054DBF9 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A95CC291F85570054DBF9 /* CalculatorView.swift */; };
 		264A95CF292003C70054DBF9 /* UIKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A95CE292003C70054DBF9 /* UIKeyboardView.swift */; };
 		264A95D1292005D60054DBF9 /* UILabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A95D0292005D60054DBF9 /* UILabelView.swift */; };
 		264A95D3292006B10054DBF9 /* Animation + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A95D2292006B10054DBF9 /* Animation + Ext.swift */; };
+		2657AD1B2935B9A300C69410 /* CalculatorViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657AD1A2935B9A300C69410 /* CalculatorViewPresenter.swift */; };
 		267858F028F179ED00B38D61 /* UICustomToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267858EF28F179ED00B38D61 /* UICustomToolbarView.swift */; };
 		267858F928F198E300B38D61 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267858F828F198E300B38D61 /* Color.xcassets */; };
 		267858FB28F198F600B38D61 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267858FA28F198F600B38D61 /* Color+Ext.swift */; };
 		267858FD28F1A06900B38D61 /* UIImageBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267858FC28F1A06900B38D61 /* UIImageBoxView.swift */; };
 		267858FF28F1ABD600B38D61 /* UICustomSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267858FE28F1ABD600B38D61 /* UICustomSegmentView.swift */; };
+		26A1E3D9293B9B4D007F5DEE /* CalculatorResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A1E3D8293B9B4D007F5DEE /* CalculatorResultView.swift */; };
 		26AFE3E428ED932000201D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE3E328ED932000201D75 /* AppDelegate.swift */; };
 		26AFE3E628ED932000201D75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE3E528ED932000201D75 /* SceneDelegate.swift */; };
 		26AFE3E828ED932000201D75 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE3E728ED932000201D75 /* MainController.swift */; };
@@ -44,8 +46,8 @@
 		26AFE45728ED9AFA00201D75 /* NSMutableAttributedString + Ext .swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AFE45028ED9AFA00201D75 /* NSMutableAttributedString + Ext .swift */; };
 		26C07EC02922A67500C0E213 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C07EBF2922A67500C0E213 /* Images.xcassets */; };
 		26C07EC22922A68C00C0E213 /* Images + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C07EC12922A68C00C0E213 /* Images + Ext.swift */; };
-		26DB471B2913D01F003F6C83 /* UIOperationsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB471A2913D01F003F6C83 /* UIOperationsCollectionView.swift */; };
-		26DB471E2913D804003F6C83 /* ConverterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB471D2913D804003F6C83 /* ConverterCollectionViewCell.swift */; };
+		26DB471B2913D01F003F6C83 /* OperationsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB471A2913D01F003F6C83 /* OperationsCollectionView.swift */; };
+		26DB471E2913D804003F6C83 /* OperationsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB471D2913D804003F6C83 /* OperationsCollectionViewCell.swift */; };
 		26FCB12B2932317E00FD532B /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCB12A2932317E00FD532B /* GridLayout.swift */; };
 		26FCB12D2932319F00FD532B /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCB12C2932319F00FD532B /* KeyboardButton.swift */; };
 		53E342AD2EEF494096D8F9F4 /* Pods_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82FD0C01A38843604776DB8 /* Pods_Calculator.framework */; };
@@ -72,16 +74,18 @@
 
 /* Begin PBXFileReference section */
 		0523E8016C0C9E5422CA1BCC /* Pods-Calculator-CalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator-CalculatorUITests.release.xcconfig"; path = "Target Support Files/Pods-Calculator-CalculatorUITests/Pods-Calculator-CalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		264A95CC291F85570054DBF9 /* CustomCalculatorCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalculatorCellView.swift; sourceTree = "<group>"; };
+		264A95CC291F85570054DBF9 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		264A95CE292003C70054DBF9 /* UIKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKeyboardView.swift; sourceTree = "<group>"; };
 		264A95D0292005D60054DBF9 /* UILabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelView.swift; sourceTree = "<group>"; };
 		264A95D2292006B10054DBF9 /* Animation + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation + Ext.swift"; sourceTree = "<group>"; };
+		2657AD1A2935B9A300C69410 /* CalculatorViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewPresenter.swift; sourceTree = "<group>"; };
 		267858EF28F179ED00B38D61 /* UICustomToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomToolbarView.swift; sourceTree = "<group>"; };
 		267858F828F198E300B38D61 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		267858FA28F198F600B38D61 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		267858FC28F1A06900B38D61 /* UIImageBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageBoxView.swift; sourceTree = "<group>"; };
 		267858FE28F1ABD600B38D61 /* UICustomSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomSegmentView.swift; sourceTree = "<group>"; };
 		2686C18A343903333A458D3B /* Pods-Calculator-CalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator-CalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Calculator-CalculatorUITests/Pods-Calculator-CalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26A1E3D8293B9B4D007F5DEE /* CalculatorResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorResultView.swift; sourceTree = "<group>"; };
 		26AFE3E028ED932000201D75 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AFE3E328ED932000201D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26AFE3E528ED932000201D75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,8 +118,8 @@
 		26AFE45028ED9AFA00201D75 /* NSMutableAttributedString + Ext .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString + Ext .swift"; sourceTree = "<group>"; };
 		26C07EBF2922A67500C0E213 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		26C07EC12922A68C00C0E213 /* Images + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images + Ext.swift"; sourceTree = "<group>"; };
-		26DB471A2913D01F003F6C83 /* UIOperationsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIOperationsCollectionView.swift; sourceTree = "<group>"; };
-		26DB471D2913D804003F6C83 /* ConverterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterCollectionViewCell.swift; sourceTree = "<group>"; };
+		26DB471A2913D01F003F6C83 /* OperationsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsCollectionView.swift; sourceTree = "<group>"; };
+		26DB471D2913D804003F6C83 /* OperationsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsCollectionViewCell.swift; sourceTree = "<group>"; };
 		26FCB12A2932317E00FD532B /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		26FCB12C2932319F00FD532B /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
 		467A7B7BA7826670D1DDD211 /* Pods-Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Calculator/Pods-Calculator.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +159,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2657AD162935B86C00C69410 /* CalculatorCell */ = {
+			isa = PBXGroup;
+			children = (
+				264A95CC291F85570054DBF9 /* CalculatorView.swift */,
+				26A1E3D8293B9B4D007F5DEE /* CalculatorResultView.swift */,
+				2657AD1A2935B9A300C69410 /* CalculatorViewPresenter.swift */,
+			);
+			path = CalculatorCell;
+			sourceTree = "<group>";
+		};
+		2657AD192935B8C400C69410 /* OperationsCell */ = {
+			isa = PBXGroup;
+			children = (
+				26DB471D2913D804003F6C83 /* OperationsCollectionViewCell.swift */,
+			);
+			path = OperationsCell;
+			sourceTree = "<group>";
+		};
 		267858F728F198C500B38D61 /* Color */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,8 +374,7 @@
 			isa = PBXGroup;
 			children = (
 				267858FE28F1ABD600B38D61 /* UICustomSegmentView.swift */,
-				26DB471A2913D01F003F6C83 /* UIOperationsCollectionView.swift */,
-				264A95CC291F85570054DBF9 /* CustomCalculatorCellView.swift */,
+				26DB471A2913D01F003F6C83 /* OperationsCollectionView.swift */,
 				26FCB12A2932317E00FD532B /* GridLayout.swift */,
 				26FCB12C2932319F00FD532B /* KeyboardButton.swift */,
 			);
@@ -363,7 +384,8 @@
 		26DB471C2913D7DE003F6C83 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				26DB471D2913D804003F6C83 /* ConverterCollectionViewCell.swift */,
+				2657AD192935B8C400C69410 /* OperationsCell */,
+				2657AD162935B86C00C69410 /* CalculatorCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -648,7 +670,8 @@
 				26AFE45528ED9AFA00201D75 /* String + Ext.swift in Sources */,
 				26AFE45228ED9AFA00201D75 /* UIApplication + Ext.swift in Sources */,
 				26AFE43828ED946800201D75 /* Icon + Ext.swift in Sources */,
-				26DB471B2913D01F003F6C83 /* UIOperationsCollectionView.swift in Sources */,
+				26DB471B2913D01F003F6C83 /* OperationsCollectionView.swift in Sources */,
+				2657AD1B2935B9A300C69410 /* CalculatorViewPresenter.swift in Sources */,
 				26AFE45728ED9AFA00201D75 /* NSMutableAttributedString + Ext .swift in Sources */,
 				26AFE45428ED9AFA00201D75 /* UIView + Ext.swift in Sources */,
 				26AFE45128ED9AFA00201D75 /* UINavigationController + Ext.swift in Sources */,
@@ -660,13 +683,14 @@
 				264A95D3292006B10054DBF9 /* Animation + Ext.swift in Sources */,
 				26FCB12B2932317E00FD532B /* GridLayout.swift in Sources */,
 				26AFE43628ED946800201D75 /* UIFont + Ext.swift in Sources */,
-				264A95CD291F85570054DBF9 /* CustomCalculatorCellView.swift in Sources */,
+				264A95CD291F85570054DBF9 /* CalculatorView.swift in Sources */,
 				267858FF28F1ABD600B38D61 /* UICustomSegmentView.swift in Sources */,
+				26A1E3D9293B9B4D007F5DEE /* CalculatorResultView.swift in Sources */,
 				26AFE44228ED949E00201D75 /* BaseController.swift in Sources */,
 				26C07EC22922A68C00C0E213 /* Images + Ext.swift in Sources */,
 				26AFE44428ED949E00201D75 /* BaseNavigationController.swift in Sources */,
 				26AFE44528ED949E00201D75 /* BaseView.swift in Sources */,
-				26DB471E2913D804003F6C83 /* ConverterCollectionViewCell.swift in Sources */,
+				26DB471E2913D804003F6C83 /* OperationsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,12 @@ import UIKit
 import SnapKit
 
 class UIKeyboardView: BaseView {
+    // qweqwe: ImageStack add 2 images
+    private let imageStack: UIStackView = {
+        let view = UIStackView()
+        view.axis = .horizontal
+        return view
+    }()
     
     private lazy var gridLayout = GridLayout(maxItemInLine: 4)
     

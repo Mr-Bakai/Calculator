@@ -12,11 +12,11 @@ class MainController: BaseController {
     
     private let converterView = BaseView()
     
-    private let calculatorView = CustomCalculatorCellView()
+    private let calculatorView = CalculatorView()
     
     private let toolbar = UICustomToolbarView()
     private let segmentView = UICustomSegmentView()
-    private let collection = UIOperationsCollectionView()
+    private let collection = OperationsCollectionView()
     
     override func setupSubViews() {
         view.addSubview(toolbar)

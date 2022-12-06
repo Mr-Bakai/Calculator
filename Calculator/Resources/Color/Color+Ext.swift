@@ -15,4 +15,6 @@ extension UIColor {
     static let darkGray = UIColor(named: "dark_gray")
     static let lightBlack = UIColor(named: "light_black")
     static let greenSymbol = UIColor(named: "green_symbols")
+    
+    static let pureWhite = UIColor(named: "pure_white")
 }

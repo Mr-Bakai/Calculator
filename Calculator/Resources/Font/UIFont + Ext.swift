@@ -13,7 +13,7 @@ import UIKit
 enum Segoe: String {
     case `default` = "Segoe UI"
     case bold = "SegoeUI-Bold"
-    case madium = "SegoeUI-SemiBold"
+    case medium = "SegoeUI-SemiBold"
 }
 
 extension UIFont {

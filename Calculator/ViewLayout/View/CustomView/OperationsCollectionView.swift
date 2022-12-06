@@ -1,5 +1,5 @@
 //
-//  UIOperationsCollectionView.swift
+//  OperationsCollectionView.swift
 //  Calculator
 //
 //  Created by Bakai Ismailov on 3/11/22.
@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import SnapKit
 
-class UIOperationsCollectionView: UICollectionView {
+class OperationsCollectionView: UICollectionView {
     
     private var customViews: [BaseView] = []
     
@@ -24,7 +24,7 @@ class UIOperationsCollectionView: UICollectionView {
         dataSource = self
         delegate = self
         
-        register(ConverterCollectionViewCell.self, forCellWithReuseIdentifier: ConverterCollectionViewCell.identifier)
+        register(OperationsCollectionViewCell.self, forCellWithReuseIdentifier: OperationsCollectionViewCell.identifier)
     }
     
     required init?(coder: NSCoder) {
@@ -41,7 +41,7 @@ class UIOperationsCollectionView: UICollectionView {
     }
 }
 
-extension UIOperationsCollectionView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension OperationsCollectionView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return customViews.count
@@ -60,7 +60,7 @@ extension UIOperationsCollectionView: UICollectionViewDelegate, UICollectionView
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ConverterCollectionViewCell.identifier, for: indexPath) as! ConverterCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: OperationsCollectionViewCell.identifier, for: indexPath) as! OperationsCollectionViewCell
         let view = customViews[indexPath.row]
         cell.configureWith(view)
         return cell

@@ -1,16 +1,15 @@
 //
-//  ConverterTableViewCell.swift
+//  OperationsCollectionViewCell.swift
 //  Calculator
 //
 //  Created by Bakai Ismailov on 3/11/22.
 //
 
-import Foundation
 import UIKit
 import SnapKit
 
-class ConverterCollectionViewCell: UICollectionViewCell {
-    static let identifier = "ConverterCollectionViewCell"
+class OperationsCollectionViewCell: UICollectionViewCell {
+    static let identifier = "MainCollectionViewCell"
    
     override func layoutSubviews() {
         super.layoutSubviews()

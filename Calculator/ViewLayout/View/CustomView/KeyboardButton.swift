@@ -15,6 +15,11 @@ enum KeyBoardButtonType {
 }
 
 enum OperationType {
+    
+    static var all: [OperationType] = {
+        return [.plus, .minus, .obelus, .times]
+    }()
+    
     case clear(type: ClearType)
     
     case plus
@@ -22,6 +27,28 @@ enum OperationType {
     case obelus
     case times
     case result
+        
+    var symbol: String {
+        switch self {
+        case .clear(_):
+            return .empty
+            
+        case .plus:
+            return "+"
+
+        case .minus:
+            return "-"
+
+        case .obelus:
+            return "/"
+
+        case .times:
+            return "*"
+
+        case .result:
+            return "="
+        }
+    }
 }
 
 enum ClearType {

@@ -12,7 +12,7 @@ class UICustomToolbarView: BaseView {
     
     private let titleLabel: UILabel = {
         let view = UILabel()
-        view.font = UIFont(type: .madium, size: 30)
+        view.font = UIFont(type: .medium, size: 30)
         view.textColor = .toolbarTitleColor
         return view
     }()
